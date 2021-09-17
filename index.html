@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind responsive practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="flex flex-row justify-between items-center pt-2 container mx-auto">
+            <div class="w-2/5">
+                <a href="#"><img class="pl-6 w-70" src="img/logo.png" alt=""></a>
+            </div>
+            <div class="w-3/5">
+                <nav>
+                    <ul class="flex flex-row justify-between text-white mr-8">
+                        <li><a class="uppercase text-xl font-bold" href="">Home</a></li>
+                        <li><a class="uppercase text-xl font-bold" href="">Services</a></li>
+                        <li><a class="uppercase text-xl font-bold" href="">About</a></li>
+                        <li><a class="uppercase text-xl font-bold" href="">Work</a></li>
+                        <li><a class="uppercase text-xl font-bold" href="">Team</a></li>
+                        <li><a class="uppercase text-xl font-bold" href="">Pricing</a></li>
+                        <li><a class="uppercase text-xl font-bold" href="">Stats</a></li>
+                        <li><a class="uppercase text-xl font-bold" href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- nav done  -->
+
+        <!-- hero content start  -->
+
+        <h1 class="text-5xl font-extrabold text-white text-center mt-60 uppercase">Watch Out </h1>
+        <h1 class="text-5xl font-extrabold text-white text-center uppercase">The Modern Responsive Website! </h1>
+        <!-- button  -->
+        <div class="flex flex-row justify-center pt-8">
+            <button class="text-white border-2 white-btn px-8 py-4 text-center uppercase font-bold">
+                View Our Work
+            </button>
+        </div>
+
+    </header>
+    <!-- services section starts  -->
+    <section class="mb-20">
+        <h1 class="uppercase text-4xl text-center pt-24 px24 pb-8 font-extrabold">Services</h1>
+        <hr class="underline mx-auto mb-6">
+
+
+        <div class="grid grid-cols-3 gap-4 mb-16">
+            <!-- service card  -->
+            <div class="flex flex-row justify-evenly px-4 py-8">
+                <i class="fa fa-paint-brush text-7xl p-4 icon" aria-hidden="true"></i>
+                <div>
+                    <p class="text-2xl font-bold pb-4 ">web design</p>
+                    <p class="text-xl  pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-row justify-evenly px-4 py-8">
+                <i class="fa fa-laptop text-7xl p-4 icon" aria-hidden="true"></i>
+                <div>
+                    <p class="text-2xl font-bold pb-4 ">web design</p>
+                    <p class="text-xl  pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="flex flex-row justify-evenly px-4 py-8">
+                <i class="fas fa-tablet-alt text-7xl p-4 icon" aria-hidden="true"></i>
+
+                <div>
+                    <p class="text-2xl font-bold pb-4 ">web design</p>
+                    <p class="text-xl  pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="flex flex-row justify-evenly px-4 py-8">
+                <i class="fa fa-search text-7xl p-4 icon" aria-hidden="true"></i>
+                <div>
+                    <p class="text-2xl font-bold pb-4 ">web design</p>
+                    <p class="text-xl  pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="flex flex-row justify-evenly px-4 py-8">
+                <i class="fas fa-pencil-ruler text-7xl p-4 icon" aria-hidden="true"></i>
+                <div>
+                    <p class="text-2xl font-bold pb-4 ">web design</p>
+                    <p class="text-xl  pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="flex flex-row justify-evenly px-4 py-8">
+                <i class="fa fa-life-ring text-7xl p-4 icon" aria-hidden="true"></i>
+                <div>
+                    <p class="text-2xl font-bold pb-4 ">web design</p>
+                    <p class="text-xl  pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- about section starts  -->
+    <section class="about">
+        <div class="about-clip">
+            <div>
+                <p class="pt-60 font-bold text-3xl px-10 uppercase">About ByteThis</p>
+                <hr class="underline mt-6 mx-10 mb-6">
+                <p class="pt-12 ml-10 w-80 mb-8">Magna arbitror et dolor amet, fabulas do noster non eu mentitum
+                    praesentibus
+                    e
+                    est ex
+                    quid cupidatat.
+                    Dolore reprehenderit probant quorum tempor, illum hic ut illum pariatur. Qui o magna aute labore.
+                </p>
+                <button id="color-btn" class="ml-10  px-8 py-4 text-center uppercase font-bold">
+                    Our Work
+                </button>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- work section starts  -->
+    <section>
+        <h1 class="uppercase text-3xl font-bold text-center p-12"> our work</h1>
+        <hr class="underline mt-6 mx-auto mb-6">
+
+        <!-- picture grid starts  -->
+
+        <div class="grid grid-cols-4 ">
+
+            <div class="work-image-gallery">
+                <img src="img/work/1.jpg" alt="">
+            </div>
+            <div class="work-image-gallery">
+
+                <img src="img/work/2.jpg" alt="">
+            </div>
+            <div class="work-image-gallery">
+
+                <img src="img/work/3.jpg" alt="">
+            </div>
+            <div class="work-image-gallery">
+
+                <img src="img/work/4.jpg" alt="">
+            </div>
+            <div class="work-image-gallery">
+
+                <img src="img/work/5.jpg" alt="">
+            </div>
+            <div class="work-image-gallery">
+
+                <img src="img/work/6.jpg" alt="">
+            </div>
+            <div class="work-image-gallery">
+
+                <img src="img/work/7.jpg" alt="">
+            </div>
+            <div class="work-image-gallery">
+
+                <img src="img/work/8.jpg" alt="">
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- our team section  -->
+    <section>
+
+        <h1 class="uppercase text-3xl my-6 font-bold text-center"> Our Team</h1>
+        <hr class=" underline mt-6 mx-auto mb-6">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-3 gap-8">
+                <div>
+                    <img src="img/team/team-1.jpg" alt="">
+                    <p class="text-center text-xl font-bold pb-4">Steve Mike</p>
+                    <p class="text-center team-title pb-8">Sr. Developer</p>
+                    <div class="flex flex-row justify-evenly pb-4 w-5/5">
+                        <i class="fab fa-facebook "></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google"></i>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/team/team-4.jpg" alt="">
+                    <p class="text-center text-xl font-bold pb-4">Robert Hinay</p>
+                    <p class="text-center team-title pb-8">Sr. Developer</p>
+                    <div class="flex flex-row justify-evenly pb-4">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google"></i>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/team/team-3.jpg" alt="">
+                    <p class="text-center text-xl font-bold pb-4">Mike Tira</p>
+                    <p class="text-center team-title pb-8">Sr. Developer</p>
+                    <div class="flex flex-row justify-evenly pb-4">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our pricing section  -->
+    <section class="my-16 ">
+
+        <h1 class="uppercase text-3xl my-6 font-bold text-center"> Our Pricing</h1>
+        <hr class=" underline mt-6 mx-auto mb-6">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-3 gap-16 ">
+
+                <div class="price-border my-16 py-20">
+                    <h4 class="text-center mb-6 py-2 text-3xl font-semibold price-title">basic</h4>
+                    <h3 class="text-center text-7xl py-4 font-bold">49 <sup class="font-medium">$</sup></h3>
+                    <p class="text-center text-2xl py-2">500 Emails</p>
+                    <p class="text-center text-2xl py-2">5gb Disk Space </p>
+                    <p class="text-center text-2xl py-2">5gb Bandwidth </p>
+                    <p class="text-center text-2xl py-2">Unlimited Domains </p>
+                    <div class="flex flex-row justify-center pt-16">
+
+                        <button id="color-btn" class=" px-8 py-4 text-center uppercase font-bold">
+                            Our Work
+                        </button>
+                    </div>
+
+                </div>
+                <div class="price-border my-16 price-card py-20">
+                    <h4 class="text-center mb-6 py-1 text-3xl font-semibold price-card-title">ENTERPRISE
+                    </h4>
+                    <h3 class="text-center text-7xl py-4 font-bold">89 <sup class="font-medium">$</sup></h3>
+                    <p class="text-center text-2xl py-2">500 Emails</p>
+                    <p class="text-center text-2xl py-2">5gb Disk Space </p>
+                    <p class="text-center text-2xl py-2">5gb Bandwidth </p>
+                    <p class="text-center text-2xl py-2">Unlimited Domains </p>
+                    <div class="flex flex-row justify-center pt-16">
+
+                        <button id="white-btn" class=" px-8 py-4 text-center uppercase font-bold">
+                            Our Work
+                        </button>
+                    </div>
+
+                </div>
+                <div class="price-border my-16 py-20">
+                    <h4 class="text-center mb-6 py-2 text-3xl font-semibold price-title">STANDARD</h4>
+                    <h3 class="text-center text-7xl py-4 font-bold">69 <sup class="font-medium">$</sup></h3>
+                    <p class="text-center text-2xl py-2">500 Emails</p>
+                    <p class="text-center text-2xl py-2">5gb Disk Space </p>
+                    <p class="text-center text-2xl py-2">5gb Bandwidth </p>
+                    <p class="text-center text-2xl py-2">Unlimited Domains </p>
+                    <div class="flex flex-row justify-center pt-16">
+
+                        <button id="color-btn" class=" px-8 py-4 text-center uppercase font-bold">
+                            Our Work
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
